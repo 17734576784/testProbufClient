@@ -98,7 +98,7 @@ public final class PersonProbuf {
       phone_ = java.util.Collections.emptyList();
     }
 
-    @java.lang.Override
+    
     public final com.google.protobuf.UnknownFieldSet
     getUnknownFields() {
       return this.unknownFields;
@@ -175,7 +175,7 @@ public final class PersonProbuf {
       return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_descriptor;
     }
 
-    @java.lang.Override
+    
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_fieldAccessorTable
@@ -326,7 +326,7 @@ public final class PersonProbuf {
         type_ = 1;
       }
 
-      @java.lang.Override
+      
       public final com.google.protobuf.UnknownFieldSet
       getUnknownFields() {
         return this.unknownFields;
@@ -392,7 +392,7 @@ public final class PersonProbuf {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_PhoneNumber_descriptor;
       }
 
-      @java.lang.Override
+      
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_PhoneNumber_fieldAccessorTable
@@ -461,7 +461,7 @@ public final class PersonProbuf {
       }
 
       private byte memoizedIsInitialized = -1;
-      @java.lang.Override
+      
       public final boolean isInitialized() {
         byte isInitialized = memoizedIsInitialized;
         if (isInitialized == 1) return true;
@@ -475,7 +475,7 @@ public final class PersonProbuf {
         return true;
       }
 
-      @java.lang.Override
+      
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -487,7 +487,7 @@ public final class PersonProbuf {
         unknownFields.writeTo(output);
       }
 
-      @java.lang.Override
+      
       public int getSerializedSize() {
         int size = memoizedSize;
         if (size != -1) return size;
@@ -505,7 +505,7 @@ public final class PersonProbuf {
         return size;
       }
 
-      @java.lang.Override
+      
       public boolean equals(final java.lang.Object obj) {
         if (obj == this) {
          return true;
@@ -529,7 +529,7 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public int hashCode() {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
@@ -619,7 +619,7 @@ public final class PersonProbuf {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      @java.lang.Override
+      
       public Builder newBuilderForType() { return newBuilder(); }
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
@@ -627,13 +627,12 @@ public final class PersonProbuf {
       public static Builder newBuilder(com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
-      @java.lang.Override
       public Builder toBuilder() {
         return this == DEFAULT_INSTANCE
             ? new Builder() : new Builder().mergeFrom(this);
       }
 
-      @java.lang.Override
+      
       protected Builder newBuilderForType(
           com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
@@ -651,7 +650,7 @@ public final class PersonProbuf {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_PhoneNumber_descriptor;
         }
 
-        @java.lang.Override
+        
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_PhoneNumber_fieldAccessorTable
@@ -674,7 +673,7 @@ public final class PersonProbuf {
                   .alwaysUseFieldBuilders) {
           }
         }
-        @java.lang.Override
+        
         public Builder clear() {
           super.clear();
           number_ = "";
@@ -684,18 +683,18 @@ public final class PersonProbuf {
           return this;
         }
 
-        @java.lang.Override
+        
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_PhoneNumber_descriptor;
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber getDefaultInstanceForType() {
           return com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber.getDefaultInstance();
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber build() {
           com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber result = buildPartial();
           if (!result.isInitialized()) {
@@ -704,7 +703,7 @@ public final class PersonProbuf {
           return result;
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber buildPartial() {
           com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber result = new com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber(this);
           int from_bitField0_ = bitField0_;
@@ -722,39 +721,39 @@ public final class PersonProbuf {
           return result;
         }
 
-        @java.lang.Override
+        
         public Builder clone() {
           return (Builder) super.clone();
         }
-        @java.lang.Override
+        
         public Builder setField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             java.lang.Object value) {
           return (Builder) super.setField(field, value);
         }
-        @java.lang.Override
+        
         public Builder clearField(
             com.google.protobuf.Descriptors.FieldDescriptor field) {
           return (Builder) super.clearField(field);
         }
-        @java.lang.Override
+        
         public Builder clearOneof(
             com.google.protobuf.Descriptors.OneofDescriptor oneof) {
           return (Builder) super.clearOneof(oneof);
         }
-        @java.lang.Override
+        
         public Builder setRepeatedField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             int index, java.lang.Object value) {
           return (Builder) super.setRepeatedField(field, index, value);
         }
-        @java.lang.Override
+        
         public Builder addRepeatedField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             java.lang.Object value) {
           return (Builder) super.addRepeatedField(field, value);
         }
-        @java.lang.Override
+        
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber) {
             return mergeFrom((com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber)other);
@@ -779,7 +778,7 @@ public final class PersonProbuf {
           return this;
         }
 
-        @java.lang.Override
+        
         public final boolean isInitialized() {
           if (!hasNumber()) {
             return false;
@@ -787,7 +786,7 @@ public final class PersonProbuf {
           return true;
         }
 
-        @java.lang.Override
+        
         public Builder mergeFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -919,13 +918,13 @@ public final class PersonProbuf {
           onChanged();
           return this;
         }
-        @java.lang.Override
+        
         public final Builder setUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
           return super.setUnknownFields(unknownFields);
         }
 
-        @java.lang.Override
+        
         public final Builder mergeUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
           return super.mergeUnknownFields(unknownFields);
@@ -947,7 +946,7 @@ public final class PersonProbuf {
 
       @java.lang.Deprecated public static final com.google.protobuf.Parser<PhoneNumber>
           PARSER = new com.google.protobuf.AbstractParser<PhoneNumber>() {
-        @java.lang.Override
+        
         public PhoneNumber parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -960,12 +959,12 @@ public final class PersonProbuf {
         return PARSER;
       }
 
-      @java.lang.Override
+      
       public com.google.protobuf.Parser<PhoneNumber> getParserForType() {
         return PARSER;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.Person.PhoneNumber getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
@@ -1031,7 +1030,7 @@ public final class PersonProbuf {
         number_ = 0;
       }
 
-      @java.lang.Override
+      
       public final com.google.protobuf.UnknownFieldSet
       getUnknownFields() {
         return this.unknownFields;
@@ -1096,7 +1095,7 @@ public final class PersonProbuf {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_CountryInfo_descriptor;
       }
 
-      @java.lang.Override
+      
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_CountryInfo_fieldAccessorTable
@@ -1205,7 +1204,7 @@ public final class PersonProbuf {
       }
 
       private byte memoizedIsInitialized = -1;
-      @java.lang.Override
+      
       public final boolean isInitialized() {
         byte isInitialized = memoizedIsInitialized;
         if (isInitialized == 1) return true;
@@ -1223,7 +1222,7 @@ public final class PersonProbuf {
         return true;
       }
 
-      @java.lang.Override
+      
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -1238,7 +1237,7 @@ public final class PersonProbuf {
         unknownFields.writeTo(output);
       }
 
-      @java.lang.Override
+      
       public int getSerializedSize() {
         int size = memoizedSize;
         if (size != -1) return size;
@@ -1259,7 +1258,7 @@ public final class PersonProbuf {
         return size;
       }
 
-      @java.lang.Override
+      
       public boolean equals(final java.lang.Object obj) {
         if (obj == this) {
          return true;
@@ -1289,7 +1288,7 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public int hashCode() {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
@@ -1383,7 +1382,7 @@ public final class PersonProbuf {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      @java.lang.Override
+      
       public Builder newBuilderForType() { return newBuilder(); }
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
@@ -1391,13 +1390,13 @@ public final class PersonProbuf {
       public static Builder newBuilder(com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
-      @java.lang.Override
+      
       public Builder toBuilder() {
         return this == DEFAULT_INSTANCE
             ? new Builder() : new Builder().mergeFrom(this);
       }
 
-      @java.lang.Override
+      
       protected Builder newBuilderForType(
           com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
@@ -1415,7 +1414,7 @@ public final class PersonProbuf {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_CountryInfo_descriptor;
         }
 
-        @java.lang.Override
+        
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_CountryInfo_fieldAccessorTable
@@ -1438,7 +1437,7 @@ public final class PersonProbuf {
                   .alwaysUseFieldBuilders) {
           }
         }
-        @java.lang.Override
+        
         public Builder clear() {
           super.clear();
           name_ = "";
@@ -1450,18 +1449,18 @@ public final class PersonProbuf {
           return this;
         }
 
-        @java.lang.Override
+        
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
           return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_CountryInfo_descriptor;
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo getDefaultInstanceForType() {
           return com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo.getDefaultInstance();
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo build() {
           com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo result = buildPartial();
           if (!result.isInitialized()) {
@@ -1470,7 +1469,7 @@ public final class PersonProbuf {
           return result;
         }
 
-        @java.lang.Override
+        
         public com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo buildPartial() {
           com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo result = new com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo(this);
           int from_bitField0_ = bitField0_;
@@ -1492,39 +1491,39 @@ public final class PersonProbuf {
           return result;
         }
 
-        @java.lang.Override
+        
         public Builder clone() {
           return (Builder) super.clone();
         }
-        @java.lang.Override
+        
         public Builder setField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             java.lang.Object value) {
           return (Builder) super.setField(field, value);
         }
-        @java.lang.Override
+        
         public Builder clearField(
             com.google.protobuf.Descriptors.FieldDescriptor field) {
           return (Builder) super.clearField(field);
         }
-        @java.lang.Override
+        
         public Builder clearOneof(
             com.google.protobuf.Descriptors.OneofDescriptor oneof) {
           return (Builder) super.clearOneof(oneof);
         }
-        @java.lang.Override
+        
         public Builder setRepeatedField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             int index, java.lang.Object value) {
           return (Builder) super.setRepeatedField(field, index, value);
         }
-        @java.lang.Override
+        
         public Builder addRepeatedField(
             com.google.protobuf.Descriptors.FieldDescriptor field,
             java.lang.Object value) {
           return (Builder) super.addRepeatedField(field, value);
         }
-        @java.lang.Override
+        
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo) {
             return mergeFrom((com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo)other);
@@ -1554,7 +1553,7 @@ public final class PersonProbuf {
           return this;
         }
 
-        @java.lang.Override
+        
         public final boolean isInitialized() {
           if (!hasName()) {
             return false;
@@ -1565,7 +1564,7 @@ public final class PersonProbuf {
           return true;
         }
 
-        @java.lang.Override
+        
         public Builder mergeFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1768,13 +1767,13 @@ public final class PersonProbuf {
           onChanged();
           return this;
         }
-        @java.lang.Override
+        
         public final Builder setUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
           return super.setUnknownFields(unknownFields);
         }
 
-        @java.lang.Override
+        
         public final Builder mergeUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
           return super.mergeUnknownFields(unknownFields);
@@ -1796,7 +1795,7 @@ public final class PersonProbuf {
 
       @java.lang.Deprecated public static final com.google.protobuf.Parser<CountryInfo>
           PARSER = new com.google.protobuf.AbstractParser<CountryInfo>() {
-        @java.lang.Override
+        
         public CountryInfo parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1809,12 +1808,12 @@ public final class PersonProbuf {
         return PARSER;
       }
 
-      @java.lang.Override
+      
       public com.google.protobuf.Parser<CountryInfo> getParserForType() {
         return PARSER;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.Person.CountryInfo getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
@@ -1957,7 +1956,7 @@ public final class PersonProbuf {
     }
 
     private byte memoizedIsInitialized = -1;
-    @java.lang.Override
+    
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
       if (isInitialized == 1) return true;
@@ -1981,7 +1980,7 @@ public final class PersonProbuf {
       return true;
     }
 
-    @java.lang.Override
+    
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -1999,7 +1998,7 @@ public final class PersonProbuf {
       unknownFields.writeTo(output);
     }
 
-    @java.lang.Override
+    
     public int getSerializedSize() {
       int size = memoizedSize;
       if (size != -1) return size;
@@ -2024,7 +2023,7 @@ public final class PersonProbuf {
       return size;
     }
 
-    @java.lang.Override
+    
     public boolean equals(final java.lang.Object obj) {
       if (obj == this) {
        return true;
@@ -2056,7 +2055,7 @@ public final class PersonProbuf {
       return result;
     }
 
-    @java.lang.Override
+    
     public int hashCode() {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
@@ -2154,7 +2153,7 @@ public final class PersonProbuf {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    @java.lang.Override
+    
     public Builder newBuilderForType() { return newBuilder(); }
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
@@ -2162,13 +2161,13 @@ public final class PersonProbuf {
     public static Builder newBuilder(com.protobuftest.protobuf.PersonProbuf.Person prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
-    @java.lang.Override
+    
     public Builder toBuilder() {
       return this == DEFAULT_INSTANCE
           ? new Builder() : new Builder().mergeFrom(this);
     }
 
-    @java.lang.Override
+    
     protected Builder newBuilderForType(
         com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
@@ -2186,7 +2185,7 @@ public final class PersonProbuf {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_descriptor;
       }
 
-      @java.lang.Override
+      
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_fieldAccessorTable
@@ -2210,7 +2209,7 @@ public final class PersonProbuf {
           getPhoneFieldBuilder();
         }
       }
-      @java.lang.Override
+      
       public Builder clear() {
         super.clear();
         name_ = "";
@@ -2228,18 +2227,18 @@ public final class PersonProbuf {
         return this;
       }
 
-      @java.lang.Override
+      
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_Person_descriptor;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.Person getDefaultInstanceForType() {
         return com.protobuftest.protobuf.PersonProbuf.Person.getDefaultInstance();
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.Person build() {
         com.protobuftest.protobuf.PersonProbuf.Person result = buildPartial();
         if (!result.isInitialized()) {
@@ -2248,7 +2247,7 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.Person buildPartial() {
         com.protobuftest.protobuf.PersonProbuf.Person result = new com.protobuftest.protobuf.PersonProbuf.Person(this);
         int from_bitField0_ = bitField0_;
@@ -2279,39 +2278,39 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public Builder clone() {
         return (Builder) super.clone();
       }
-      @java.lang.Override
+      
       public Builder setField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           java.lang.Object value) {
         return (Builder) super.setField(field, value);
       }
-      @java.lang.Override
+      
       public Builder clearField(
           com.google.protobuf.Descriptors.FieldDescriptor field) {
         return (Builder) super.clearField(field);
       }
-      @java.lang.Override
+      
       public Builder clearOneof(
           com.google.protobuf.Descriptors.OneofDescriptor oneof) {
         return (Builder) super.clearOneof(oneof);
       }
-      @java.lang.Override
+      
       public Builder setRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           int index, java.lang.Object value) {
         return (Builder) super.setRepeatedField(field, index, value);
       }
-      @java.lang.Override
+      
       public Builder addRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           java.lang.Object value) {
         return (Builder) super.addRepeatedField(field, value);
       }
-      @java.lang.Override
+      
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof com.protobuftest.protobuf.PersonProbuf.Person) {
           return mergeFrom((com.protobuftest.protobuf.PersonProbuf.Person)other);
@@ -2367,7 +2366,7 @@ public final class PersonProbuf {
         return this;
       }
 
-      @java.lang.Override
+      
       public final boolean isInitialized() {
         if (!hasName()) {
           return false;
@@ -2383,7 +2382,7 @@ public final class PersonProbuf {
         return true;
       }
 
-      @java.lang.Override
+      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2826,13 +2825,13 @@ public final class PersonProbuf {
         }
         return phoneBuilder_;
       }
-      @java.lang.Override
+      
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.setUnknownFields(unknownFields);
       }
 
-      @java.lang.Override
+      
       public final Builder mergeUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
@@ -2854,7 +2853,7 @@ public final class PersonProbuf {
 
     @java.lang.Deprecated public static final com.google.protobuf.Parser<Person>
         PARSER = new com.google.protobuf.AbstractParser<Person>() {
-      @java.lang.Override
+      
       public Person parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2867,12 +2866,12 @@ public final class PersonProbuf {
       return PARSER;
     }
 
-    @java.lang.Override
+    
     public com.google.protobuf.Parser<Person> getParserForType() {
       return PARSER;
     }
 
-    @java.lang.Override
+    
     public com.protobuftest.protobuf.PersonProbuf.Person getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
@@ -2923,7 +2922,7 @@ public final class PersonProbuf {
       person_ = java.util.Collections.emptyList();
     }
 
-    @java.lang.Override
+    
     public final com.google.protobuf.UnknownFieldSet
     getUnknownFields() {
       return this.unknownFields;
@@ -2983,7 +2982,7 @@ public final class PersonProbuf {
       return com.protobuftest.protobuf.PersonProbuf.internal_static_AddressBook_descriptor;
     }
 
-    @java.lang.Override
+    
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return com.protobuftest.protobuf.PersonProbuf.internal_static_AddressBook_fieldAccessorTable
@@ -3027,7 +3026,7 @@ public final class PersonProbuf {
     }
 
     private byte memoizedIsInitialized = -1;
-    @java.lang.Override
+    
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
       if (isInitialized == 1) return true;
@@ -3043,7 +3042,7 @@ public final class PersonProbuf {
       return true;
     }
 
-    @java.lang.Override
+    
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < person_.size(); i++) {
@@ -3052,7 +3051,7 @@ public final class PersonProbuf {
       unknownFields.writeTo(output);
     }
 
-    @java.lang.Override
+    
     public int getSerializedSize() {
       int size = memoizedSize;
       if (size != -1) return size;
@@ -3067,7 +3066,7 @@ public final class PersonProbuf {
       return size;
     }
 
-    @java.lang.Override
+    
     public boolean equals(final java.lang.Object obj) {
       if (obj == this) {
        return true;
@@ -3084,7 +3083,7 @@ public final class PersonProbuf {
       return result;
     }
 
-    @java.lang.Override
+    
     public int hashCode() {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
@@ -3170,7 +3169,7 @@ public final class PersonProbuf {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    @java.lang.Override
+    
     public Builder newBuilderForType() { return newBuilder(); }
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
@@ -3178,13 +3177,13 @@ public final class PersonProbuf {
     public static Builder newBuilder(com.protobuftest.protobuf.PersonProbuf.AddressBook prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
-    @java.lang.Override
+    
     public Builder toBuilder() {
       return this == DEFAULT_INSTANCE
           ? new Builder() : new Builder().mergeFrom(this);
     }
 
-    @java.lang.Override
+    
     protected Builder newBuilderForType(
         com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
@@ -3202,7 +3201,7 @@ public final class PersonProbuf {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_AddressBook_descriptor;
       }
 
-      @java.lang.Override
+      
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_AddressBook_fieldAccessorTable
@@ -3226,7 +3225,7 @@ public final class PersonProbuf {
           getPersonFieldBuilder();
         }
       }
-      @java.lang.Override
+      
       public Builder clear() {
         super.clear();
         if (personBuilder_ == null) {
@@ -3238,18 +3237,18 @@ public final class PersonProbuf {
         return this;
       }
 
-      @java.lang.Override
+      
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
         return com.protobuftest.protobuf.PersonProbuf.internal_static_AddressBook_descriptor;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.AddressBook getDefaultInstanceForType() {
         return com.protobuftest.protobuf.PersonProbuf.AddressBook.getDefaultInstance();
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.AddressBook build() {
         com.protobuftest.protobuf.PersonProbuf.AddressBook result = buildPartial();
         if (!result.isInitialized()) {
@@ -3258,7 +3257,7 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public com.protobuftest.protobuf.PersonProbuf.AddressBook buildPartial() {
         com.protobuftest.protobuf.PersonProbuf.AddressBook result = new com.protobuftest.protobuf.PersonProbuf.AddressBook(this);
         int from_bitField0_ = bitField0_;
@@ -3275,39 +3274,39 @@ public final class PersonProbuf {
         return result;
       }
 
-      @java.lang.Override
+      
       public Builder clone() {
         return (Builder) super.clone();
       }
-      @java.lang.Override
+      
       public Builder setField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           java.lang.Object value) {
         return (Builder) super.setField(field, value);
       }
-      @java.lang.Override
+      
       public Builder clearField(
           com.google.protobuf.Descriptors.FieldDescriptor field) {
         return (Builder) super.clearField(field);
       }
-      @java.lang.Override
+      
       public Builder clearOneof(
           com.google.protobuf.Descriptors.OneofDescriptor oneof) {
         return (Builder) super.clearOneof(oneof);
       }
-      @java.lang.Override
+      
       public Builder setRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           int index, java.lang.Object value) {
         return (Builder) super.setRepeatedField(field, index, value);
       }
-      @java.lang.Override
+      
       public Builder addRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
           java.lang.Object value) {
         return (Builder) super.addRepeatedField(field, value);
       }
-      @java.lang.Override
+      
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof com.protobuftest.protobuf.PersonProbuf.AddressBook) {
           return mergeFrom((com.protobuftest.protobuf.PersonProbuf.AddressBook)other);
@@ -3350,7 +3349,7 @@ public final class PersonProbuf {
         return this;
       }
 
-      @java.lang.Override
+      
       public final boolean isInitialized() {
         for (int i = 0; i < getPersonCount(); i++) {
           if (!getPerson(i).isInitialized()) {
@@ -3360,7 +3359,7 @@ public final class PersonProbuf {
         return true;
       }
 
-      @java.lang.Override
+      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3619,13 +3618,13 @@ public final class PersonProbuf {
         }
         return personBuilder_;
       }
-      @java.lang.Override
+      
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.setUnknownFields(unknownFields);
       }
 
-      @java.lang.Override
+      
       public final Builder mergeUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
@@ -3647,7 +3646,7 @@ public final class PersonProbuf {
 
     @java.lang.Deprecated public static final com.google.protobuf.Parser<AddressBook>
         PARSER = new com.google.protobuf.AbstractParser<AddressBook>() {
-      @java.lang.Override
+      
       public AddressBook parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3660,12 +3659,12 @@ public final class PersonProbuf {
       return PARSER;
     }
 
-    @java.lang.Override
+    
     public com.google.protobuf.Parser<AddressBook> getParserForType() {
       return PARSER;
     }
 
-    @java.lang.Override
+    
     public com.protobuftest.protobuf.PersonProbuf.AddressBook getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
